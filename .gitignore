@@ -1,3 +1,5 @@
 temp/
 obj/
 bin/
+.vs/
+.vscode/
