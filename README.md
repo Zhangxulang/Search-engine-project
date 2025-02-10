@@ -80,23 +80,19 @@
 1. 在 `bin` 目录下运行服务器：
 
    ```bash
-   bash
-   复制
    ./SEserver
    ```
 
 2. 在另一个终端窗口中运行客户端：
 
    ```bash
-   bash
-   复制
    ./client
    ```
 
 ## 项目目录结构
 
 ```plaintext
-plaintext复制bin/            # 可执行文件
+bin/            # 可执行文件
 client/         # 客户端代码文件
 src/            # 源代码文件
     ├── DictProducer/   # 词典生成模块
