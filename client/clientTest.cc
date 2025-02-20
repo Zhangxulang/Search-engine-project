@@ -25,8 +25,8 @@ void test()
 	struct sockaddr_in serverAddr;
 	memset(&serverAddr, 0, sizeof(serverAddr));
 	serverAddr.sin_family = AF_INET;
-	serverAddr.sin_port = htons(8888);
-	serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1");
+	serverAddr.sin_port = htons(1234);
+	serverAddr.sin_addr.s_addr = inet_addr("192.168.132.136");
 	socklen_t length = sizeof(serverAddr);
 
 	if(::connect(clientfd,(struct sockaddr*)&serverAddr, length) < 0) 
